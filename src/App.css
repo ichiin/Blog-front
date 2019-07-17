@@ -1,33 +1,85 @@
-.App {
+h1{
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.blog_post_title{
+  font-family: Varela;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.blog_post_tag{
+  background: linear-gradient(180deg, #480BDB 0%, rgba(255, 255, 255, 0) 100%), #9117F1;
+  text-align: center;
+  min-width: 30px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+  color: white;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.blog_post_body{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #E2E2E2;
+}
+
+.blog_post_date{
+  text-align: right;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input-group-item{
+  margin-bottom: 15px!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#cardbg{
+  border-radius: 10px;
+  background: center url("countryside.jpg");
 }
+
+#carddark{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.navbar{
+  padding: 30px;
+}
+
+#header{
+  background: no-repeat url('./tech.jpg')
+}
+
+.banner-text{
+  font-family: Varela;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 60px;
+  color: white;
+}
+
+.banner-gradient-text{
+  background: -webkit-linear-gradient(#480BDB,#FDFBFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
