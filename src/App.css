@@ -1,6 +1,10 @@
 h1{
   text-align: center;
 }
+a{
+  text-decoration:none;
+}
+
 
 .blog_post_title{
   font-family: Varela;
@@ -53,6 +57,11 @@ h1{
 #cardbg{
   border-radius: 10px;
   background: center url("countryside.jpg");
+  transition: transform .5s; /* Animation */
+}
+
+#cardbg:hover{
+  transform: scale(1.1);
 }
 
 #carddark{

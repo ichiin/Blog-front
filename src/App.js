@@ -13,6 +13,7 @@ import moment from "moment"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCheckSquare, faTrashAlt, faEdit } from '@fortawesome/free-solid-svg-icons'
 import Article from "./Component/Article";
+import 'moment/locale/fr'
 
 const url = "http://127.0.0.1:4000/blog";
 
@@ -51,8 +52,10 @@ class App extends Component{
   }
 
   inputHandler = (name) => (event) =>{
-    this.setState({[name]: event.target.value})
+    if(name === 'new_post_body')this.setState({'new_post_body': event})
+    else(this.setState({[name]: event.target.value}))
 }
+
 
   tagsAdd = (event) => {
     console.log('hi')
@@ -176,6 +179,7 @@ class App extends Component{
 
   async componentDidMount() {
     library.add(faCheckSquare, faTrashAlt, faEdit)
+    moment.locale('fr');
     this.generateRoutes();
     await this.getAllPosts();
   }

@@ -4,6 +4,8 @@ import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField';
 import Chip from '@material-ui/core/Chip';
 import Dialog from '@material-ui/core/Dialog';
+import ReactQuill from 'react-quill'
+require('react-quill/dist/quill.snow.css');
 
 class AddPost extends Component{
     render(){
@@ -58,15 +60,9 @@ class AddPost extends Component{
                 <h2>Post text</h2>
                 <Grid container direction={'row'} justify={'center'} alignItems={'center'}>
                     <Grid item xs={8}>
-                        <TextField
-                            multiline
-                            rows={5}
-                            fullWidth
-                            label="What's up ?"
+                        <ReactQuill
                             value={this.props.new_post_body}
                             onChange={this.props.inputHandler('new_post_body')}
-                            variant={'filled'}
-                            margin="normal"
                         />
                     </Grid>
                 </Grid>
