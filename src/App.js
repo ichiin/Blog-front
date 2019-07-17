@@ -77,6 +77,7 @@ class App extends Component{
       post_tags: this.state.new_post_tags_array,
       post_date: moment().format('DD-MM-YYYY h:mm:ss'),
       post_imgURL: this.state.new_post_imgURL,
+      post_comments: []
     }
     Axios.post(query, null, {params: parameters}).then(res => {
       console.log(res)
@@ -153,8 +154,7 @@ class App extends Component{
   getAllPosts = () => {
     let query = url + "/getPosts?";
     Axios.get(query, null).then(res => {
-      console.log(res.data.doc)
-      this.setState({db_posts: res.data.doc, latest: (res.data.doc).splice(0, 4)});
+      this.setState({db_posts: res.data.doc, latest: (res.data.doc).slice(0, 4)});
     }).catch(err => {
       console.log(err);
     })
