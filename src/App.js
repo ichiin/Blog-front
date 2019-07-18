@@ -58,7 +58,6 @@ class App extends Component{
 
 
   tagsAdd = (event) => {
-    console.log('hi')
     let tag = this.state.new_post_tags;
     if(event.key === "Enter" && tag.length > 0) {
       let tab = this.state.new_post_tags_array;
@@ -73,20 +72,23 @@ class App extends Component{
   }
 
   addPost = () => {
+    console.log('ok')
     let query = url + "/add?";
     let parameters = {
       post_body: this.state.new_post_body,
       post_title: this.state.new_post_name,
       post_tags: this.state.new_post_tags_array,
-      post_date: moment().format('DD-MM-YYYY h:mm:ss'),
+      post_date: moment().toDate(),
       post_imgURL: this.state.new_post_imgURL,
       post_comments: []
     }
+    console.log('send it !',parameters)
     Axios.post(query, null, {params: parameters}).then(res => {
       console.log(res)
       this.setState({new_post_inserted: 0})
     })
         .catch(err => {
+          console.log('it failed !')
           console.log(err)
         })
   }
