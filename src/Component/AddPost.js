@@ -7,9 +7,9 @@ import Dialog from '@material-ui/core/Dialog';
 import ReactQuill from 'react-quill'
 require('react-quill/dist/quill.snow.css');
 
-class AddPost extends Component{
-    render(){
-        return(
+class AddPost extends Component {
+    render() {
+        return (
             <Grid container direction={'column'} justify={"flex-start"} alignItems={'center'}>
                 <h1>Add a new Post !</h1>
                 <h2>Post name</h2>
@@ -52,9 +52,9 @@ class AddPost extends Component{
                             fullWidth
                         />
                         {this.props.new_post_tags_array.map(tag => {
-                            return <Chip key={tag} label={tag} variant="outlined" color="primary" onDelete={() => this.props.handleDeleteTag(tag)}/>
+                            return <Chip key={tag} label={tag} variant="outlined" color="primary"
+                                         onDelete={() => this.props.handleDeleteTag(tag)}/>
                         })}
-
                     </Grid>
                 </Grid>
                 <h2>Post text</h2>

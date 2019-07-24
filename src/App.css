@@ -1,94 +1,94 @@
-h1{
-  text-align: center;
-}
-a{
-  text-decoration:none;
+h1 {
+    text-align: center;
 }
 
-
-.blog_post_title{
-  font-family: Varela;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 34px;
-  line-height: 60px;
-  text-align: center;
-  color: white;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+a {
+    text-decoration: none;
 }
 
-.blog_post_tag{
-  background: linear-gradient(180deg, #480BDB 0%, rgba(255, 255, 255, 0) 100%), #9117F1;
-  text-align: center;
-  min-width: 30px;
-  border-radius: 3px;
-  padding: 5px;
-  margin-right: 5px;
-  margin-top: 20px;
-  color: white;
-  font-family: Heebo;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 30px;
+.blog_post_title {
+    font-family: Varela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
-.blog_post_body{
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 25px;
-
-  color: #E2E2E2;
+.blog_post_tag {
+    background: linear-gradient(180deg, #480BDB 0%, rgba(255, 255, 255, 0) 100%), #9117F1;
+    text-align: center;
+    min-width: 30px;
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    color: white;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
 }
 
-.blog_post_date{
-  text-align: right;
-  color: white;
+.blog_post_body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #E2E2E2;
 }
 
-.input-group-item{
-  margin-bottom: 15px!important;
+.blog_post_date {
+    text-align: right;
+    color: white;
 }
 
-#cardbg{
-  border-radius: 10px;
-  background: center url("countryside.jpg");
-  transition: transform .5s; /* Animation */
+.input-group-item {
+    margin-bottom: 15px !important;
 }
 
-#cardbg:hover{
-  transform: scale(1.1);
+#cardbg {
+    border-radius: 10px;
+    background: no-repeat center url("img/countryside.jpg");
+    transition: transform .5s; /* Animation */
 }
 
-#carddark{
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 10px;
+#cardbg:hover {
+    transform: scale(1.1);
 }
 
-.navbar{
-  padding: 30px;
+#carddark {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
-#header{
-  background: no-repeat url('./tech.jpg')
+.navbar {
+    padding: 30px;
 }
 
-.banner-text{
-  font-family: Varela;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 54px;
-  line-height: 60px;
-  color: white;
+#header {
+    background: no-repeat url('img/tech.jpg')
 }
 
-.banner-gradient-text{
-  background: -webkit-linear-gradient(#480BDB,#FDFBFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.banner-text {
+    font-family: Varela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 60px;
+    color: white;
+}
+
+.banner-gradient-text {
+    background: -webkit-linear-gradient(#480BDB, #FDFBFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 

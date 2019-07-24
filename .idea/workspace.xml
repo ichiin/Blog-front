@@ -3,6 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="470dd982-63ca-4e1a-b237-c0daec2f9b05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/AddPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/AddPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/ArticleList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/ArticleList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/LogIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/LogIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/ProtectedRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/old.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/tt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/countryside.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/countryside.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mayuri.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mayuri.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tech.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/tech.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="2023">
+              <caret line="119" column="24" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -30,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/Article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="408">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -42,18 +57,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+            <state relative-caret-position="374">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -68,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/AddPost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+            <state relative-caret-position="-578">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -80,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+            <state relative-caret-position="-901">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -89,8 +99,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Component/ArticleList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/LogIn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -99,13 +118,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Component/LogIn.js">
+        <entry file="file://$PROJECT_DIR$/src/Component/About.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -114,8 +130,8 @@
         <entry file="file://$USER_HOME$/Documents/Logs/100-days-of-code/r1-log.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+              <first_editor relative-caret-position="408">
+                <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
               </first_editor>
               <second_editor />
             </state>
@@ -135,6 +151,8 @@
     <findStrings>
       <find>handleDeleteTag</find>
       <find>locale</find>
+      <find>getPost</find>
+      <find>readArticle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,17 +164,17 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Component/old.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/Component/About.js" />
         <option value="$PROJECT_DIR$/src/Component/tt.js" />
         <option value="$PROJECT_DIR$/src/Component/ProtectedRoute.js" />
-        <option value="$PROJECT_DIR$/src/Component/LogIn.js" />
         <option value="$PROJECT_DIR$/src/Component/LogOut.js" />
-        <option value="$PROJECT_DIR$/src/Component/ArticleList.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/Component/Home.js" />
         <option value="$PROJECT_DIR$/src/Component/Article.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Component/AddPost.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/Component/LogIn.js" />
+        <option value="$PROJECT_DIR$/src/Component/About.js" />
+        <option value="$PROJECT_DIR$/src/Component/ArticleList.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$USER_HOME$/Documents/Logs/100-days-of-code/r1-log.md" />
       </list>
     </option>
@@ -173,16 +191,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="412" />
-    <option name="y" value="56" />
-    <option name="width" value="885" />
-    <option name="height" value="860" />
+    <option name="x" value="-90" />
+    <option name="width" value="1404" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,24 +228,24 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog-backend" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Logs/100-days-of-code/r1-log.md" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dk\WebstormProjects\blog-perso\src" />
       <recent name="C:\Users\dk\WebstormProjects\blog-perso\src\img" />
+      <recent name="C:\Users\dk\WebstormProjects\blog-perso\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,12 +293,13 @@
       <workItem from="1563378287549" duration="4223000" />
       <workItem from="1563466453042" duration="1724000" />
       <workItem from="1563605522921" duration="4219000" />
-      <workItem from="1563820314580" duration="1354000" />
+      <workItem from="1563820314580" duration="6056000" />
+      <workItem from="1563994008675" duration="2712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93772000" />
+    <option name="totallyTimeSpent" value="101186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -290,6 +309,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -336,11 +356,6 @@
           <url>file://$PROJECT_DIR$/src/Component/Article.js</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Component/ArticleList.js</url>
-          <line>38</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -355,23 +370,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mayuri.jpg">
+    <entry file="file://$PROJECT_DIR$/src/img/mayuri.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,16 +404,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="374">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -417,26 +422,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/Article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="408">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/LogOut.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -445,10 +437,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="458" column="17" selection-start-line="458" selection-start-column="17" selection-end-line="458" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Component/AddPost.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="-578">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -457,25 +456,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        <state relative-caret-position="-901">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/ArticleList.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/LogIn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Component/LogIn.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/About.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/ArticleList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="24" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -485,8 +501,8 @@
     <entry file="file://$USER_HOME$/Documents/Logs/100-days-of-code/r1-log.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <first_editor relative-caret-position="408">
+            <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
           </first_editor>
           <second_editor />
         </state>
